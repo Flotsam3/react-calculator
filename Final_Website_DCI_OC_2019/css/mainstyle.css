@@ -1,0 +1,281 @@
+/* font-family: 'Ubuntu', sans-serif;
+font-family: 'Calistoga', cursive;
+background-color: rgb(182, 193, 197);*/
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: normal;
+    background-image: url(../img/cheap_diagonal_fabric.png);
+}
+
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:rgb(199, 64, 71);
+    font-size: 55px;
+    text-shadow: 
+    0px 0px 4px rgb(77, 73, 73);
+    }    
+
+.big-banner {
+    background-size: cover;
+    height: 90vh;
+    padding: 20px;
+    /*outline: 1px dotted lime;*/
+}
+
+.big-banner.align-content-right h1 {
+    text-align: right;
+}
+
+.background-opacity {
+    background-color: grey;
+    opacity: 0.30;
+    padding: 50px 0 130px 0;
+    margin-top: -160px;
+    margin-left: -20px;
+    margin-right: -20px;
+    z-index: 10;
+}
+
+p {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+p img {
+    border: 8px solid whitesmoke;
+    margin: 10px;
+}
+
+.flag_left {
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.flag_right {
+    float: right;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.flags {
+    margin-top:100px;
+    margin-bottom: 300px;
+}
+
+a.country_link:link {
+    color:rgb(199, 64, 71);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a.country_link:visited {
+    color:rgb(250, 250, 250);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a.country_link:hover {
+    color:rgb(63, 55, 55);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.top_nav {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: normal;
+    font-size: 20px;
+    padding: 0;
+    margin: -10px -8px 0px -8px;
+    list-style-type: none;
+    background-image: url(../img/cheap_diagonal_fabric.png);
+    text-align: center;/*centers the nav-bar*/
+}
+
+/* .top_nav li {
+    display: inline-block;
+    margin-right: -6px;/*no margin between the nav-bar-elements
+} */
+
+.top_nav li {
+    float: left;
+    width: 20%;
+}
+
+.top_nav a {
+    display: block;
+    text-decoration: none;
+    color:rgb(53, 48, 48);
+    padding: 15px;
+    transition: 
+        color 0.4s ease,
+        background-color 0.4s ease;
+}
+
+.top_nav a.active,
+.top_nav a:hover {
+    color: white;
+    background-color: rgb(199, 64, 71);
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.top_nav a.active {
+    box-shadow:  0px 0px 5px black;
+}
+
+.top_nav .active {
+    pointer-events: none;
+}
+
+/* START CONTACT FORM*/
+
+.contact-form {
+    padding: 5px 0 5px 0;
+    width: 500px;
+}
+
+input, textarea, select {
+    margin: 0 0 10px 8px;
+    padding: 10px 0 10px 0;
+    background-color: rgb(199, 64, 71);
+    color: white;
+    border-style: solid;
+    border-width: 3px;
+    border-color: rgb(236, 228, 221);
+}
+
+.contact-form, textarea {
+    margin-top: 15px;
+}
+
+select {
+    width: 175px;
+    padding-left: 10px;
+}
+
+textarea {
+    width: 235px;
+    padding-left: 10px;
+}
+
+.gender {
+    margin-left: 10px;
+    margin-top: 10px;
+    color: whitesmoke;
+}
+
+input[type=submit] {
+    margin-top: 10px;
+    margin-left: 80px;
+    width: 100px;
+    border-radius: 20px;
+}
+
+::placeholder {
+    color: whitesmoke;
+    padding-left: 10px;
+}
+
+.form-right {
+    margin-left: 200px;
+    margin-top: -307px;
+}
+
+/* END CONTACT FORM*/
+
+.social-media {
+    margin: 50px -8px -25px -8px;
+    padding: 25px;
+    box-sizing: border-box;
+    text-align: center;
+    background-color:rgb(199, 64, 71);
+}
+
+.social-media i {
+    font-size: 60px;
+    padding: 25px;
+    color: white;
+}
+
+.social-media i:hover, .back-to-top a:hover {
+    color: rgb(39, 38, 38);
+}
+
+.back-to-top {
+    font-size: 60px;
+    text-align: center;
+    margin-top: 30px; 
+}
+
+.back-to-top a {
+    color: rgb(199, 64, 71);
+}
+
+label[for=add-to-list] {
+    color: white;
+}
+
+/*TABLE START */
+
+table {
+    width: 80%;
+    margin: 10px auto;
+    border: 3px solid whitesmoke;
+    color: whitesmoke;
+    background-color: rgb(199, 64, 71);
+    font-weight: normal;
+    table-layout: fixed;
+    empty-cells: hide;
+}
+
+td {
+    text-align: center;
+    padding: 10px 0 10px;
+}
+
+.title-left {
+    text-align: left;
+    padding-left: 10px;
+}
+
+table, th, td {
+    border: 3px solid whitesmoke;
+    border-collapse: collapse;
+}
+
+th {
+    padding: 10px 0 10px 0;
+}
+
+.title-left, th {
+    background-color: rgb(65, 41, 42);
+    font-weight: lighter;
+}
+
+/*TABLE END */
+
+iframe {
+    display: block;
+    margin: 10px auto 10px;
+    outline: 8px solid rgb(248, 247, 247);
+}
+
+.subheader-explore {
+    opacity: 0.80;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 5px 0 5px 0;
+    background-color: rgb(199, 64, 71);
+}
+
+.impressum {
+    font-weight: bolder;
+}
+
+.clearfix {
+    clear: both;
+}

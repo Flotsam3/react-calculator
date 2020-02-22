@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+    <link rel="stylesheet" href="css/mainstyle.css">
+    <link href="https://fonts.googleapis.com/css?family=Calistoga|Ubuntu&display=swap" rel="stylesheet">
+    
+    <title>Become A Member To Our Site</title>
+
+    <style>
+        .big-banner {
+            background-image: url("img/two-people-on-mountain-cliff-1647962.jpg");
+        } 
+    </style>
+</head>
+<body>
+    <ul class="top_nav" id="top">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="countries.html">Countries</a></li>
+        <li><a href="explore.html">Explore</a></li>
+        <li><a href="signup.html" class="active">Sign Up</a></li>
+        <li><a href="impressum.html">Impressum</a></li>
+    </ul>
+
+    <div class="clearfix"></div>
+
+    <div class="big-banner">
+        <h1 style="font-family:Verdana, Geneva, Tahoma, sans-serif; z-index: 100;">Sign Up</h1>
+        <div class="background-opacity">   
+        </div>
+        <div class="contact-form">
+            <form action="">
+                <div class="form-left">
+                    <div>
+                        <input type="text" name="fname" id="fname" placeholder="Your First Name">
+                    </div>
+                    <div>
+                        <input type="text" name="lname" id="fname" placeholder="Your Last Name">
+                    </div>
+                    <div>
+                        <input type="email" name="email" id="fname" placeholder="Your Email address">
+                    </div>
+                    <div>
+                        <input type="tel" name="telephone" id="phone" placeholder="Your phone number">
+                    </div>
+                    <div>
+                        <select name="age-range" id="age-range">
+                            <option selected>Select your age range</option>
+                            <option disabled>------------------------------</option>
+                            <option value="17-and-under">17 and under</option>
+                            <option value="18-24">18 to 24</option>
+                            <option value="25-34">25 to 34</option>
+                            <option value="35-and-above">35 and Up</option>
+                        </select>
+                        <div class="gender">
+                            Gender:
+                            <input type="radio" name="gender" id="male">
+                            <label for="male">Male</label>
+                            <input type="radio" name="gender" id="female">
+                            <label for="female">Female</label>
+                        </div>
+                </div>
+
+                <div class="form-right">
+                    <div>
+                        <textarea name="message" id="message" cols="30" rows="10">Type in your message</textarea>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="add-to-list" id="add-to-list">
+                        <label for="add-to-list" id="add-to-list">Add you to our mailing list</label>
+                    </div>
+                    <div>
+                        <input type="submit" value="Submit">
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    
+</body>
+</html>
